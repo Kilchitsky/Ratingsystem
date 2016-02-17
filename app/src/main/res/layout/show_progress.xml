@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@drawable/loginbackground">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_gravity="center"
+        android:checked="false"
+        android:textOff="Перший семестр"
+        android:textOn="Другий семестр"
+        android:gravity="center"
+        android:textSize="@dimen/abc_action_bar_content_inset_material" />
+
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+
+</LinearLayout>
